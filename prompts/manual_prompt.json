@@ -1,0 +1,14 @@
+{
+  "abnormal": {
+    "instruction": "",
+    "prompts": [
+      "a cropped photo of an object with damage"
+    ]
+  },
+  "normal": {
+    "instruction": "",
+    "prompts": [
+      "a cropped photo of an object without damage"
+    ]
+  }
+}

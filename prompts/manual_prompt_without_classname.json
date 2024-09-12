@@ -1,0 +1,14 @@
+{
+  "abnormal": {
+    "instruction": "",
+    "prompts": [
+      "anomalous object"
+    ]
+  },
+  "normal": {
+    "instruction": "",
+    "prompts": [
+      "normal object"
+    ]
+  }
+}
