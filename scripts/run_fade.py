@@ -443,7 +443,8 @@ def main(
                 elif classification_mode == "vision":
                     scores = vision_guided_scores
                 elif classification_mode == "both":
-                    scores = (language_guided_scores + vision_guided_scores) / 2
+                    scores = (language_guided_scores + vision_guided_scores) / 2 \
+                        if shots > 0 else language_guided_scores
                 scores = np.clip(scores, 0, 1)
                 plot_data["image_anomaly_score"].append(scores.tolist())
                 anomaly_scores.append(scores)
